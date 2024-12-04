@@ -1,0 +1,124 @@
+:root{
+--light-pink: #ffb0db;
+--light-blue:#b0dbff;
+--purple: #a6edff;
+--light-purple: #f5e0ff;
+--blue: #3f92ff;
+--pink: #ff94ca;
+--dark-pink: #77003c;
+--dark-blue: #13096d;
+}
+
+body{
+    background-color: var(--purple);
+    margin: 0;
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    color: #ae00ff;
+    background-color: var(--light-purple);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: .25rem .25rem 1rem;
+
+}
+
+h2, h3 {
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ae00ff;
+    background-color: var(--light-purple);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: .25rem .25rem 1rem;
+}
+
+p {
+    font-style: italic;
+}
+
+.background{
+    background-color: #000000a2;
+    position: fixed;
+    width:100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.daily-special{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cookies-and-icecream {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+.cookies {
+    background-color: var(--blue);
+    color: var(--dark-blue);
+    border: dotted var(--light-blue);
+}
+.ice-cream {
+    background-color: var(--pink);
+    color: var(--dark-pink);
+    border: dashed var(--light-pink);
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 30rem;
+    
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    box-shadow: .25rem .25rem 1rem;
+}
+
+
+
+img {
+    width: 20rem;
+}
+
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48%;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+}
